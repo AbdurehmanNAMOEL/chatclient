@@ -1,0 +1,46 @@
+.App{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    justify-content:center;
+    align-items:center;
+    background-color: #333;
+}
+.join-container{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1212126b;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    background-color: white;
+}
+.join-container input{
+    width:90%;
+    height:50px;
+    text-indent: 8px;
+}
+.join-container button{
+    margin-bottom: 20px;
+    height: 45px;
+    width: 200px;
+    background-color: rgba(17, 165, 223, 0.897);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    border: 2px solid #12121298;
+}
